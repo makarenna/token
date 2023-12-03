@@ -1,12 +1,21 @@
-<!-- # 🪙 Token -->
+# Install Rust using rustup
+```
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+# Add Rust to the current shell session
+```
+source "$HOME/.cargo/env"
+```
+# Clone the Leo repository
+```
+git clone https://github.com/AleoHQ/leo
+```
 
-[//]: # (<img alt="workshop/token" width="1412" src="../.resources/token.png">)
-
-A transparent & shielded custom token in Leo.
-
-## Run Guide
-
-To run this program, run:
-```bash
+# Install the program using Cargo
+```
+cargo install --path .
+```
+# Run
+```
 ./run.sh
 ```
